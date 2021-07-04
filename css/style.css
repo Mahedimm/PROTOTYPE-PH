@@ -5,7 +5,7 @@ body{
     font-family: 'Montserrat', sans-serif;
    
 }
-section{
+.felx-container{
     display: flex;
 }
 h1{
@@ -21,13 +21,18 @@ h2{
     
 }
 h3{
-    
+    font-family: 'Montserrat', sans-serif;
+    font-size:2rem;
 
+}
+h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size:1rem;
 }
 p{
     font-family: 'Montserrat', sans-serif;
     line-height:2;
-    width:50%;
+    
 }
 .top-section{
     background-image: url("top-banner.png");
@@ -43,6 +48,9 @@ p{
 .middle-section{
     padding:100px 200px;
     margin: 100px 0;
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 
 }
 
@@ -52,11 +60,37 @@ p{
 }
 .dream-big{
     padding-top:30px;
-    padding-left: 300px;
-    background-image: url(dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
+    padding-left: 250px;
+
 }
+.experience-section{
+    padding:100px 200px;
+    text-align: center;
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+
+
+}
+.full-stack-web-developer{
+    
+    position: relative;
+    width: 30% ;
+    margin: 5% 5%;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 10px;
+    padding:5%;
+    
+}
+.baby-web-developer{
+    
+    position: relative;
+    width: 30% ;
+    margin:5% 5%;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 10px;
+    padding: 5%;
+    }
     
 .orange{
     color:#FFA900;
